@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    border: solid #DDDDDD 1px;
+    font-family: Arial;
+    width: 600px;
+    position: relative;
+}
+/*========================================*/
+.posicao416{
+    border-bottom: solid #CCCCCC 9px;
+}
+td, th{
+    
+    border-bottom: solid #DDDDDD 1px;
+}
+.centro{
+    text-align: center;
+}
+/*========================================*/
+.posicaoazulescuro{
+    color: #003366;
+    text-align: center;
+}
+.posicaoazulclaro{
+    color: #1398be;
+    text-align: center;
+}
+.posicaocinza{
+    color: #CCCCCC;
+    text-align: center;
+}
+.posicaolaranja{
+    color: #DE9800;
+    text-align: center;
+}
+.posicaovermelho{
+    color: #C91B04;
+    text-align: center;
+}
+.titulo{
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+}
+.nometime{
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+}
+.ponto{
+    background-color: #dddbdb;
+    text-align: center;
+}
+.vitoria{
+    background-color: #dddbdb;
+    text-align: center;
+}
+.derrota{
+    background-color: #dddbdb;
+    text-align: center;
+}
+.golcontra{
+    background-color: #dddbdb;
+    text-align: center;
+}
+.porcentagem{
+    background-color: #dddbdb;
+    text-align: center;
+}
+.legenda{
+    text-align: left;
+    font-size: 10px;
+    color: #555555;
+    font-family: Arial;
+}
+div.um {
+    line-height:0;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color:#003366;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left: 5px;
+    right: 4px;
+    bottom: 0px ;
+    top: 517px;
+    }
+.dois {
+    line-height:0;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color:#1398be;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left: 127px;
+    right: 4px;
+    bottom: 0px ;
+    top: 509px;
+        }
+.tres {
+    line-height:0;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color:#DE9800;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left: 245px;
+    right: 4px;
+    bottom: 0px ;
+    top: 500px;
+    }
+.quatro {
+    line-height:0;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color:#C91B04;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left: 345px;
+    right: 4px;
+    bottom: 0px ;
+    top: 493px;
+    }

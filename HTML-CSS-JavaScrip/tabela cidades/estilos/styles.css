@@ -1,0 +1,31 @@
+table{
+    width: 600px;
+    font-family: Arial ;
+    font-size: 12px;
+    background-color: #C7E7F3;
+}
+.azulescuro{
+    background-color: #0d5188;
+    color:white;
+}
+.azulmedia{
+    background-color:#66C5E3;
+}
+.corcidade{
+    color: #0d5188
+}
+
+.numerocor{
+    width: 10%;
+    text-align: center;
+    background-color:silver;
+}
+
+.azulclaro{
+    background-color: #C7E7F3;
+}
+
+.pop{
+    width: 15%;
+    text-align: center;
+}

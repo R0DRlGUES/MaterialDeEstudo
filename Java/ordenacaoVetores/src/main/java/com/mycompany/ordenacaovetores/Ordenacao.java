@@ -2,6 +2,7 @@ package com.mycompany.ordenacaovetores;
 
 import java.util.Random;
 import javax.swing.JOptionPane;
+
 /**
  * @author PEDRO
  * @author RENAN
@@ -66,6 +67,7 @@ public class Ordenacao {
             }
 
         }
+        long inicio = System.currentTimeMillis();
 
         System.out.print("\n");
         for (int i = 1; i < vetor.length; i++) {
@@ -79,7 +81,10 @@ public class Ordenacao {
         for (int i = 0; i < vetor.length; i++) {
             System.out.println("Posição[" + i + "] = " + vetor[i]);
         }
+        long fim = System.currentTimeMillis();
+        long tempoExecucao = fim - inicio;
         System.out.println("Vetor de Tamanho ja definido ordenado");
+        System.out.println("Tempo de execução: " + tempoExecucao);
     }
 
     public void bubbleSort() {
@@ -94,6 +99,7 @@ public class Ordenacao {
         for (int i = 0; i < vetor.length; i++) {
             vetor[i] = gerador.nextInt(0, 100);
         }
+        long inicio = System.currentTimeMillis();
 
         while (houveTroca) {
             houveTroca = false;
@@ -112,13 +118,16 @@ public class Ordenacao {
             System.out.println("posicao [" + i + "] = " + vetor[i]);
 
         }
+        long fim = System.currentTimeMillis();
+        long tempoExecucao = fim - inicio;
+        System.out.println("Tempo de execução: " + tempoExecucao);
     }
 
     public static int pesquisaBinaria(int chave, int[] vet) {
         int esquerda, meio, direita;
         esquerda = 0;
         direita = vet.length - 1;
-
+        long inicio = System.currentTimeMillis();
         while (esquerda <= direita) {
             meio = (esquerda + direita) / 2;
             if (chave == vet[meio]) {
@@ -129,20 +138,28 @@ public class Ordenacao {
             } else {
                 direita = meio - 1;
             }
-
         }
+        long fim = System.currentTimeMillis();
+        long tempoExecucao = fim - inicio;
+        System.out.println("Tempo de execução: " + tempoExecucao);
+
         return -1;
 
     }
 
     public static int pesquisaLinear(int chave, int[] vet) {
 
+        long inicio = System.currentTimeMillis();
         for (int i = 0; i < vet.length; i++) {
             if (chave == vet[i]) {
                 return i;
             }
         }
+        long fim = System.currentTimeMillis();
+        long tempoExecucao = fim - inicio;
+        System.out.println("Tempo de execução: " + tempoExecucao);
         return -1;
 
     }
+
 }

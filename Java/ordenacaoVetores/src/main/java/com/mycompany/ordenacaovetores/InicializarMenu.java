@@ -42,17 +42,25 @@ public class InicializarMenu extends Ordenacao {
                                         "Informe o número a ser pesquisado"));
 
                         int posicao = pesquisaLinear(chave, vetor);
+                        long inicio = System.currentTimeMillis();
 
                         if (posicao >= 0) {
                             System.out.println("O Elemento " + chave + " está localizado na "
                                     + "posição: " + posicao);
+                            long fim = System.currentTimeMillis();
+                            long tempoExecucao = fim - inicio;
+                            System.out.println("Tempo de execução: " + tempoExecucao);
                         } else {
                             System.out.println(
                                     "O Elemento " + chave + " não foi localizado na lista");
+                            long fim = System.currentTimeMillis();
+                            long tempoExecucao = fim - inicio;
+                            System.out.println("Tempo de execução: " + tempoExecucao);
                         }
 
                     } else if (opcao == 2) {//  Pesquisa Binaria
                         int[] vetor = {10, 20, 30, 40, 50, 60, 70, 80, 90};
+                        long inicio = System.currentTimeMillis();
 
                         int chave = Integer.parseInt(
                                 JOptionPane.showInputDialog(
@@ -61,11 +69,19 @@ public class InicializarMenu extends Ordenacao {
                         int posicao = pesquisaBinaria(chave, vetor);
 
                         if (posicao >= 0) {
+
                             System.out.println("O Elemento " + chave + " está localizado na "
                                     + "posição: " + posicao);
+                            long fim = System.currentTimeMillis();
+                            long tempoExecucao = fim - inicio;
+                            System.out.println("Tempo de execução: " + tempoExecucao);
                         } else {
+
                             System.out.println(
                                     "O Elemento " + chave + " não foi localizado na lista");
+                            long fim = System.currentTimeMillis();
+                            long tempoExecucao = fim - inicio;
+                            System.out.println("Tempo de execução: " + tempoExecucao);
                         }
                     }
 

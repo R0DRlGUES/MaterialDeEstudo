@@ -1,4 +1,4 @@
-## materialDeEstudo
+## Material de Estudo
 
 Este repositório é dedicado a registrar e documentar projetos iniciais e estudos de tecnologias. O objetivo é criar um repositório de conhecimento que abranja:
 

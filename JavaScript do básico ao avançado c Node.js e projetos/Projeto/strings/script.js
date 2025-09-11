@@ -1,7 +1,12 @@
 
-// um número é um número independente de ser positivo, negativo, inteiro ou decimal.
-console.log(typeof 123); // number
-console.log(typeof -123); // number
-console.log(typeof 123.2); // number
+console.log("Hello, World!");
+console.log('Hello, World!');
+console.log(`Hello, World!`);
 
+console.log('Hello,\n World! nova linha');
 
+console.log("Hello, 'World!' aspas simples");
+console.log('Hello, "World!" aspas duplas');
+
+console.log(`multiplicação em string: ${2 * 3} só funciona dentro de crase ou backticks`); 
+console.log("concatenação: 'Hello' + ' World!'");

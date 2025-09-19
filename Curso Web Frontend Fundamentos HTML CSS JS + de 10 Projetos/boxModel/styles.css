@@ -1,0 +1,66 @@
+h1{
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+}
+h2{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:Capitalize;
+    text-align:center;
+}
+p{
+    text-align:left;
+    text-indent: 50px;
+    font-variant: small-caps;
+}
+
+.border{
+/*  border-width: 5px; espessura
+    border-style: dotted;
+    border-color: aquamarine; */
+
+    border: 5px solid pink;  /*  Declaração simplificada da borda  */
+
+/*   border-top: 10px solid blue;  funciona também para os lado individualemte */
+}
+.padding{
+    padding: 26px;
+
+}
+.margin{
+    margin: 50px 0 20px 100px;
+}
+
+.borda{
+    background-color: yellowgreen;
+    
+    border-top: 10px solid rgb(71, 4, 62);
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: rgb(71, 4, 62);
+/* Representação não simplificada */
+
+
+    border-right: 10px dotted rgb(124, 80, 80);
+    border-left: 10px dashed rgb(0, 0, 0);
+    border-bottom: 10px groove rgb(0, 230, 88);
+    /* border: 10px solid red; */
+    padding: 10px;
+}
+
+
+.borda2{
+    border: 5px dashed blue;
+
+    background-color: bisque;
+}
+.outline{
+    outline: 5px dashed red;
+
+    background-color: bisque;
+}

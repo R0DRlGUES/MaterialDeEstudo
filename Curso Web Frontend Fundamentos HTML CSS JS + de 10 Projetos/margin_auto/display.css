@@ -1,0 +1,16 @@
+body{
+    background-color: #ccc;
+    
+}
+p{
+    width: 70%;
+    background-color: #6e6e6e;
+}
+h1{
+    border: 2px solid red;
+    width: 25%;
+}
+a{
+    background-color: yellow;
+
+}

@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    margin: 50px;
+}
+.h1_nome{
+    color: darkblue;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.p{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(92, 92, 92);
+}
+.titulo{
+    display: flex;
+    color: darkblue;
+    background-color: rgb(130, 130, 130);
+    border-bottom: 2px solid darkblue;
+    height: 40px;
+    align-items: center; 
+    font-size: 15px;
+    
+}
+.experiencias{
+    color: rgb(92, 92, 92);
+    font-size: 10px;
+}
+.Objetivo p{
+    font-size: 10px;
+}
+span{
+    color: blue;
+    font-weight: 600;
+}
+.formaca
+.cursos p, .formacao p, ul{
+    color: rgb(92, 92, 92);
+    font-size: 10px;
+}

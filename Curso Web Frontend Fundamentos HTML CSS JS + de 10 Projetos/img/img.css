@@ -1,0 +1,28 @@
+body{
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 700px;
+    margin:auto;
+
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;/*  evita que a img duplique */
+    background-attachment: fixed;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: right bottom;
+
+}
+.logo{
+    width: 200px;
+}
+p{
+    line-height: 1.5;
+     text-align: justify;/*  o conteudo se alinha tanto para direita quando para esquerda */
+}
+.img-html{
+    float: left;
+}
+
+.img-css{
+    float: right;
+}

@@ -26,11 +26,20 @@ function shuffler(arr){
     }
     return novoArr;
 }
-meioDaLista = Math.floor(listaEmbaralhada.length / 2)
+//  meioDaLista = Math.floor(listaEmbaralhada.length / 2)
 
-listaDoPedro = listaEmbaralhada.slice(0,meioDaLista);
-listaDajulia = listaEmbaralhada.slice(meioDaLista);
+listaDoPedro = listaEmbaralhada.slice(0,Math.floor(listaEmbaralhada.length / 2));
+listaDajulia = listaEmbaralhada.slice(Math.floor(listaEmbaralhada.length / 2));
 console.log("Lista do Pedro = " + listaDoPedro);
 console.log("Lista da Julia = " + listaDajulia);
-
-
+// -------------------------
+// -------------------------
+// -------------------------
+// function embaralhar(arr){
+//   let novo2arr = [...arr]
+//   for(let i = arr.length -1;i > 0; i--){
+//     let a = Math.floor(Math.random() * (i + 1));
+//     [novo2arr[i] , novo2arr[a]] = [novo2arr[a] , novo2arr[i]];
+//   }
+//   return novo2arr;
+// }

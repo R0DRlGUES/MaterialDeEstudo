@@ -1,3 +1,10 @@
+let numero = [1,2,3,4,5,6,7,8,9];
+
+for(let i = 0;i<=numero.length;i++){
+    console.log(numero[i])
+}
+
+
 let arr1 = [1,2,3,4];
 let arr2 = ['Pero','Julia','jacara'];
 let arr3 = [true, false, true];
@@ -16,8 +23,6 @@ let numeros = [1,2,3,4,5,6,7,8,9,10];
 
 
 console.log(numeros.length);
-
-
 
 numeros.push(); // add na ultima posicao
 numeros.pop();// remove na ultima posicao

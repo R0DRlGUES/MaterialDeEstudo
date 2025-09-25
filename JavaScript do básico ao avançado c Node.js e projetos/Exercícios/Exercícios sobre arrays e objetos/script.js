@@ -156,6 +156,17 @@ function recebeArrays(array1,array2){
 console.log(recebeArrays(frutas1,frutas2));
 
 console.log("5 - Crie uma função que receba uma string e conte quantas vogais ela possui.");
+const vogais = ["a","e","i","o","u"];
+let cont = 0;
+function contaVogais(palavra){
+    for(let i = 0; i < palavra.length; i++){//  paralavras são iteradoes, se "comportam" como arrays
+        if(vogais.includes(palavra[i].toLocaleLowerCase())){
+            cont ++;
+        }
+    }
+    return cont;
+}
+console.log(contaVogais("Paralelepipedo"));
 console.log("6 - Crie um array de objetos representando alunos com “nome” e “nota”. Retorne apenas os alunos com nota maior ou igual a 7.");
 console.log("7 - Crie uma função que receba um número e retorne true se ele for primo e false caso contrário.");
 console.log("8 - Crie uma função que receba uma string e a retorne invertida (ex: “JS” → “SJ”).");

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            width: 300px;
+            padding: 16px;
+            margin-bottom: 20px;
+            height: 300px ;/* Para o overflow funcionar tem que ter altura */
+            background-color: rgba(255, 0, 0, 0.185);
+        }
+        .item{
+            background-color: purple;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+       .fit-content .item{
+        width: fit-content;/* ajusta o tamanho conforme a conteudo */
+       }
+       .min-content{
+        width: min-content;/* menor largura possivel */
+       }
+       .max-content{
+        width: max-content;/* Maior largura possivel */
+       }
+       .overflow-hidden{
+          overflow: hidden; /* esconde o que ultrapassar o container */
+         }
+       .overflow-scroll{
+            overflow: scroll; /* cria uma barra de rolagem */
+        }
+        .overflow-auto{
+            overflow: auto; /* cria uma barra de rolagem se necessario */
+        }
+        .overflow-x-hidden{
+            overflow-x: hidden; /* cria uma barra de rolagem horizontal se necessario */
+        }
+        .overflow-x-hidden{
+            overflow-y: hidden; /* cria uma barra de rolagem vertical se necessario */
+        }
+        .overflow-x{
+            overflow-x: scroll; /* cria uma barra de rolagem horizontal */
+        }
+        .overflow-visble{
+            overflow: visible; /* o conteudo ultrapassa o container */
+        }
+    </style>
+</head>
+<body>
+   <div class="fit-content container overflow-hidden">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, optio!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora fuga temporibus. Commodi eos sit, soluta deserunt ipsam earum quaerat facilis sed rem aut laboriosam?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio numquam deleniti! Nostrum ipsum vel non quos temporibus? Illo quidem assumenda consequatur cum, amet, nihil asperiores, non exercitationem laudantium animi quasi fuga quia! Molestias ipsam quidem unde hic architecto veritatis quod, ex ullam in magnam commodi laborum ratione nobis quam quos incidunt aperiam eius eligendi numquam facere dicta. Recusandae nisi velit expedita in, sunt aspernatur consequatur et repellat, assumenda laborum voluptates. Quod hic dicta recusandae.</div>
+   </div>
+
+    <div class="min-content container overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, optio!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora fuga temporibus. Commodi eos sit, soluta deserunt ipsam earum quaerat facilis sed rem aut laboriosam?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio numquam deleniti! Nostrum ipsum vel non quos temporibus? Illo quidem assumenda consequatur cum, amet, nihil asperiores, non exercitationem laudantium animi quasi fuga quia! Molestias ipsam quidem unde hic architecto veritatis quod, ex ullam in magnam commodi laborum ratione nobis quam quos incidunt aperiam eius eligendi numquam facere dicta. Recusandae nisi velit expedita in, sunt aspernatur consequatur et repellat, assumenda laborum voluptates. Quod hic dicta recusandae.</div>
+   </div>
+
+   <div class="container max-content overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, optio!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora fuga temporibus. Commodi eos sit, soluta deserunt ipsam earum quaerat facilis sed rem aut laboriosam?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio numquam deleniti! Nostrum ipsum vel non quos temporibus? Illo quidem assumenda consequatur cum, amet, nihil asperiores, non exercitationem laudantium animi quasi fuga quia! Molestias ipsam quidem unde hic architecto veritatis quod, ex ullam in magnam commodi laborum ratione nobis quam quos incidunt aperiam eius eligendi numquam facere dicta. Recusandae nisi velit expedita in, sunt aspernatur consequatur et repellat, assumenda laborum voluptates. Quod hic dicta recusandae.</div>
+   </div>
+</body>
+</html>

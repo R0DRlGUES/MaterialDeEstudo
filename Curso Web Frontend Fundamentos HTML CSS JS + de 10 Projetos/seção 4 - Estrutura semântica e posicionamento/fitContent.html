@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            width: 300px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        .item{
+            background-color: purple;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+       .fit-content .item{
+        width: fit-content;/* ajusta o tamanho conforme a conteudo */
+       }
+       .min-content{
+        width: min-content;/* menor largura possivel */
+       }
+       .max-content{
+        width: max-content;/* Maior largura possivel */
+       }
+       
+    </style>
+</head>
+<body>
+   <div class="fit-content container">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, optio!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora fuga temporibus. Commodi eos sit, soluta deserunt ipsam earum quaerat facilis sed rem aut laboriosam?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio numquam deleniti! Nostrum ipsum vel non quos temporibus? Illo quidem assumenda consequatur cum, amet, nihil asperiores, non exercitationem laudantium animi quasi fuga quia! Molestias ipsam quidem unde hic architecto veritatis quod, ex ullam in magnam commodi laborum ratione nobis quam quos incidunt aperiam eius eligendi numquam facere dicta. Recusandae nisi velit expedita in, sunt aspernatur consequatur et repellat, assumenda laborum voluptates. Quod hic dicta recusandae.</div>
+   </div>
+
+    <div class="min-content container">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, optio!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora fuga temporibus. Commodi eos sit, soluta deserunt ipsam earum quaerat facilis sed rem aut laboriosam?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio numquam deleniti! Nostrum ipsum vel non quos temporibus? Illo quidem assumenda consequatur cum, amet, nihil asperiores, non exercitationem laudantium animi quasi fuga quia! Molestias ipsam quidem unde hic architecto veritatis quod, ex ullam in magnam commodi laborum ratione nobis quam quos incidunt aperiam eius eligendi numquam facere dicta. Recusandae nisi velit expedita in, sunt aspernatur consequatur et repellat, assumenda laborum voluptates. Quod hic dicta recusandae.</div>
+   </div>
+
+   <div class="max-content container">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, optio!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora fuga temporibus. Commodi eos sit, soluta deserunt ipsam earum quaerat facilis sed rem aut laboriosam?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio numquam deleniti! Nostrum ipsum vel non quos temporibus? Illo quidem assumenda consequatur cum, amet, nihil asperiores, non exercitationem laudantium animi quasi fuga quia! Molestias ipsam quidem unde hic architecto veritatis quod, ex ullam in magnam commodi laborum ratione nobis quam quos incidunt aperiam eius eligendi numquam facere dicta. Recusandae nisi velit expedita in, sunt aspernatur consequatur et repellat, assumenda laborum voluptates. Quod hic dicta recusandae.</div>
+   </div>
+</body>
+</html>

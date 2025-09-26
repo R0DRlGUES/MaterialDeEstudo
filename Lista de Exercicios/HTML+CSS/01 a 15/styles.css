@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(144, 238, 144, 0.502);
+}
+.mudar-cor {
+    color: red;
+}
+.centralizar{
+    text-align: center;
+}
+.divAlinhada {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.solid   { border: 3px solid black; }
+.dashed  { border: 3px dashed blue; }
+.dotted  { border: 3px dotted red; }
+.double  { border: 5px double green; }
+.groove  { border: 6px groove purple; }
+.ridge   { border: 6px ridge orange; }
+.inset   { border: 6px inset brown; }
+.outset  { border: 6px outset gray; }
+
+
+.button{    
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Botão 1: cor de fundo muda */
+.color-hover {
+    background-color: #3498db;
+}
+.color-hover:hover {
+    background-color: #2b1da5;
+}
+
+    /* Botão 2: efeito "pressionado" */
+.press-effect {
+    background-color: #2ecc71;
+}
+.press-effect:active {
+    transform: scale(0.95);
+    background-color: #0bd215;
+}
+
+    /* Botão 3: borda muda */
+.border-hover {
+    background-color: white;
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+}
+.border-hover:hover {
+    border-color: #2bff00;
+}
+
+    /* Botão 4: sombra no hover */
+.shadow-hover {
+    background-color: #f39c12;
+}
+.shadow-hover:hover {
+    box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.622);
+}
+
+/* Botão 5: múltiplos efeitos */
+.multi-effect {
+    background-color: #9b59b6;
+}
+.multi-effect:hover {
+    background-color: #8e44ad;
+    transform: scale(1.05);
+    box-shadow: 20px 41px 10px rgba(0, 0, 0, 0.622);
+}
+
+
+
+
+
+
+
+
+
+

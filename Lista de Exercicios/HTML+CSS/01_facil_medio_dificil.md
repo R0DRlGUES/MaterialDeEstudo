@@ -32,6 +32,66 @@
 
 ---
 
+### 6. Criar uma tabela simples  
+**Descrição**: Monte uma tabela com 3 colunas e 3 linhas.  
+**Dica**: Use `<table>`, `<tr>`, `<th>`, `<td>`.  
+
+---
+
+### 7. Adicionar fundo na página  
+**Descrição**: Coloque uma cor de fundo na página inteira.  
+**Dica**: Use `background-color` no `body` no CSS.  
+
+---
+
+### 8. Criar um formulário básico  
+**Descrição**: Crie um formulário com um campo de texto, um campo de senha e um botão de envio.  
+**Dica**: Use `<form>`, `<input type="text">`, `<input type="password">`, `<button>`.  
+
+---
+
+### 9. Centralizar um título  
+**Descrição**: Centralize um `<h1>` no meio da página.  
+**Dica**: Use `text-align: center;` no CSS.  
+
+---
+
+### 10. Inserir uma linha horizontal  
+**Descrição**: Adicione uma linha divisória entre dois parágrafos.  
+**Dica**: Use a tag `<hr>`.  
+
+---
+
+### 11. Usar bordas em um elemento  
+**Descrição**: Crie uma div com uma borda ao redor.  
+**Dica**: Use `border` no CSS.  
+
+---
+
+### 12. Criar botões estilizados  
+**Descrição**: Crie um botão e mude sua cor, tamanho e borda.  
+**Dica**: Use a tag `<button>` e estilize no CSS.  
+
+---
+
+### 13. Criar links internos  
+**Descrição**: Crie um link que leve a outra seção da mesma página.  
+**Dica**: Use `id` no elemento de destino e `href="#id"` no link.  
+
+---
+
+### 14. Usar diferentes tamanhos de fonte  
+**Descrição**: Crie três parágrafos, cada um com um tamanho de fonte diferente.  
+**Dica**: Use `font-size` no CSS.  
+
+---
+
+### 15. Criar uma div estilizada  
+**Descrição**: Crie uma `<div>` que funcione como “caixa” com fundo colorido, borda e padding.  
+**Dica**: Use `background-color`, `border` e `padding` no CSS.  
+
+---
+
 ## 🟡 HTML + CSS – Nível Intermediário
 
 ### 6. Criar um formulário simples

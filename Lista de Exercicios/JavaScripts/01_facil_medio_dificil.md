@@ -138,6 +138,88 @@ Pratique e aprimore suas habilidades em JavaScript com esses 15 exercícios orga
 
 ---
 
+## 22. Classe Pessoa
+**Descrição**: Crie uma classe `Pessoa` que receba `nome` e `idade`. Adicione um método que retorne `"Olá, meu nome é [nome] e tenho [idade] anos"`.  
+**Dica**: Use a palavra-chave `class` e `this` para acessar propriedades.
+
+---
+
+## 23. Herança Funcionario
+**Descrição**: Crie uma classe `Funcionario` que herda de `Pessoa`. Adicione uma propriedade `salario` e um método que retorne `"O funcionário [nome] recebe [salario] por mês"`.  
+**Dica**: Use `extends` e `super()` para herdar propriedades.
+
+---
+
+## 24. Array de objetos
+**Descrição**: Crie um array com 5 objetos representando produtos (`nome`, `preco`). Imprima apenas os produtos cujo preço seja maior que 50.  
+**Dica**: Use um `for` ou o método `.filter()`.
+
+---
+
+## 25. Map em array
+**Descrição**: Dado um array `[1, 2, 3, 4, 5]`, use `.map()` para criar um novo array multiplicando cada número por 10.  
+**Dica**: Lembre-se que `.map()` retorna um novo array.
+
+---
+
+## 26. Filter em array
+**Descrição**: Dado um array `[10, 15, 20, 25, 30]`, use `.filter()` para criar um novo array apenas com números divisíveis por 10.  
+**Dica**: Use o operador `%` dentro do callback.
+
+---
+
+## 27. Reduce em array
+**Descrição**: Dado um array `[5, 10, 15]`, use `.reduce()` para somar todos os elementos.  
+**Dica**: O `.reduce()` recebe uma função com `acumulador` e `valorAtual`.
+
+---
+
+## 28. Função com parâmetro padrão
+**Descrição**: Crie uma função `saudacao(nome = "Visitante")` que retorna `"Olá, [nome]!"`. Teste chamando sem passar parâmetro.  
+**Dica**: Defina `nome = "Visitante"` na assinatura da função.
+
+---
+
+## 29. Arrow function para pares
+**Descrição**: Crie uma arrow function que recebe um array de números e retorna apenas os números pares.  
+**Dica**: Use `.filter()` dentro da arrow function e o operador `%`.
+
+---
+
+## 30. Objetos aninhados
+**Descrição**: Crie um objeto `usuario` com `nome`, `idade` e `endereco` (com `rua`, `cidade` e `cep`). Imprima o endereço completo no console.  
+**Dica**: Use `usuario.endereco.rua` para acessar propriedades internas.
+
+---
+
+## 31. Loop e condição
+**Descrição**: Crie um array `[1,2,3,4,5,6,7,8,9,10]`. Use um loop `for` para imprimir apenas os números ímpares.  
+**Dica**: Use `if (numero % 2 !== 0)`.
+
+---
+
+## 32. Switch Case para dias
+**Descrição**: Crie uma função que recebe um número de 1 a 7 e retorna o dia da semana correspondente usando `switch case`.  
+**Dica**: Use `break` em cada case para evitar execução múltipla.
+
+---
+
+## 33. Validação idade
+**Descrição**: Crie uma função que recebe uma idade e retorna `"Maior de idade"` se >= 18 e `"Menor de idade"` se < 18.  
+**Dica**: Use `if/else` para comparar valores.
+
+---
+
+## 34. Filtrar alunos aprovados
+**Descrição**: Dado o array:  
+```js
+const alunos = [
+  { nome: "Ana", nota: 8 },
+  { nome: "João", nota: 5 },
+  { nome: "Maria", nota: 9 }
+];
+
+
 ## 🔴 Nível Avançado
 
 ### 23. Validador de CPF (simplificado)

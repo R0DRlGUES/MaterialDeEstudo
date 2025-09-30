@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .flexbox{
+            height: 250px;
+            border: 2px solid black;
+            display: flex;
+            margin-bottom: 16px;
+        }
+        .flexbox div{
+            border: 2px solid red;
+            width: 150px;
+            margin: 15px;
+        }
+        .flex-container1{
+            /* flex-wrap: nowrap; /* nowrap, wrap, wrap-reverse */
+            /* flex-direction: row; row, row-reverse, column, column-reverse */
+            flex-flow: row wrap;   /* atalho para os outros dois */
+        }
+        .flex-container2{
+            justify-content: space-around; /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+        }
+        .flex-container2 div{
+            width: 30px;
+            margin: 0px;
+        }
+        .flex-container3{
+           justify-content: space-around; /*  horizontal */
+            align-items: center; /* flex-start, flex-end, center, baseline, stretch - veritcal*/
+        }
+        .flex-container3 div{
+            width: 30px;
+            margin: 0px;
+        }
+        .flex-container4{
+            justify-content: space-around;
+            align-items: baseline; 
+
+        }
+        .flex-container4 div{
+            width: 30px;
+            margin: 0px;
+        }
+        .flex-container5{
+            justify-content: center;
+            align-items: flex-end;
+            align-content: space-around; /* flex-start, flex-end, center, space-between, space-around, stretch */
+            flex-wrap: wrap;
+        }
+        .flex-container5 div{
+            width: 160px;
+            
+        }
+    </style>
+</head>
+<body>
+    <p>
+        montando um display flexbox, o correto é passara para um container <br>
+        será chamado de flex container <br>
+        e os elementos filhos serão chamados de flex items <br> 
+        somente o container que receberá a propriedade display flexbox, os filhos do primeiro nivel tbm <br>
+        os itens filhos dos filhos não receberão a propriedade display flexbox <br>
+
+    </p>
+
+    <div class="flexbox flex-container1">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+    <div class="flexbox flex-container2">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+    <div class="flexbox flex-container3">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+    <div class="flexbox flex-container4">
+        <div class="div1">1</div>
+        <div class="div2" style="font-size: 36px;">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+    <div class="flexbox flex-container5">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+</body>
+</html>
